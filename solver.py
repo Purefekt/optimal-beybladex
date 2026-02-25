@@ -59,7 +59,7 @@ def optimal_pack_selection(all_parts, owned_parts, packs):
     unbuyable = missing - available_parts
 
     if unbuyable:
-        print("\nUnbuyable parts (not in any available pack):")
+        print("\n🚫 Unbuyable parts (not in any available pack):")
         for part in sorted(unbuyable, key=lambda p: p.name):
             print(f"- {part.name}")
 
@@ -75,7 +75,7 @@ def optimal_pack_selection(all_parts, owned_parts, packs):
         missing, packs
     )
 
-    print("\nMandatory packs (forced by unique parts):")
+    print("\n📦 Mandatory packs (forced by unique parts):")
     if forced_packs:
         for pack in forced_packs:
             parts = sorted(p.name for p in forced_by[pack])
@@ -94,7 +94,12 @@ def optimal_pack_selection(all_parts, owned_parts, packs):
         if not set(p.parts.elements()).issubset(covered_by_forced)
     ]
 
-    print(f"\nRemaining missing parts after reduction: {len(missing)}")
+    # 🔥 PRINT CURRENT HUNT LIST (after reduction)
+    print("\n🎯 Parts still in hunt:")
+    for part in sorted(missing, key=lambda p: p.name):
+        print(f"- {part.name}")
+
+    print(f"\nRemaining missing parts count: {len(missing)}")
     print(f"Remaining packs to search: {len(remaining_packs)}")
 
     if not missing:

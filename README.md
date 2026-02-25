@@ -1,13 +1,14 @@
 # optimal-beybladex
 
-(base) veersingh@Veers-MacBook-Pro optimal-beybladex % /usr/local/bin/python3 /Users/veers
-ingh/Desktop/optimal-beybladex/main.py
+(base) veersingh@Veers-MacBook-Pro optimal-beybladex % /usr/loc
+al/bin/python3 /Users/veersingh/Desktop/optimal-beybladex/main.
+py
 All parts are unique: True
 All packs are unique: True
 
 === Running optimized pack solver ===
 
-Unbuyable parts (not in any available pack):
+🚫 Unbuyable parts (not in any available pack):
 - AERO_PEGASUS
 - ASSAULT
 - BLAST
@@ -39,7 +40,7 @@ Unbuyable parts (not in any available pack):
 - _2_80
 - _7_55
 
-Mandatory packs (forced by unique parts):
+📦 Mandatory packs (forced by unique parts):
 - talon_ptera_single
   forced by: TALON_PTERA
 - steel_samurai_single
@@ -91,5 +92,13 @@ Mandatory packs (forced by unique parts):
 - flame_cerberus_single
   forced by: CERBERUS, FLAME, WALL_BALL, WHEEL
 
-Remaining missing parts after reduction: 6
+🎯 Parts still in hunt:
+- GALE_WYVERN
+- HELM_KNIGHT
+- KEEL_SHARK
+- SCYTHE_INCENDIO
+- TAIL_VIPER
+- YELL_KONG
+
+Remaining missing parts count: 6
 Remaining packs to search: 42
