@@ -1,12 +1,43 @@
 # optimal-beybladex
 
-/usr/local/bin/python3 /Users/veersingh/Desktop/bbx/main.py
-(base) veersingh@Veers-MacBook-Pro bbx % /usr/local/bin/python3 /Users/veersingh
-/Desktop/bbx/main.py
+(base) veersingh@Veers-MacBook-Pro optimal-beybladex % /usr/local/bin/python3 /Users/veers
+ingh/Desktop/optimal-beybladex/main.py
 All parts are unique: True
 All packs are unique: True
 
 === Running optimized pack solver ===
+
+Unbuyable parts (not in any available pack):
+- AERO_PEGASUS
+- ASSAULT
+- BLAST
+- COBALT_DRAKE
+- DUAL
+- ECLIPSE
+- FLARE
+- FREE
+- HUNT
+- JOLT
+- MASSIVE
+- METEOR_DRAGOON
+- MUMMY_CURSE
+- PEGASUS
+- PHOENIX
+- SCORPIO_SPEAR
+- SOL
+- TRANS_KICK
+- TURBO
+- VALKYRIE
+- VOLT
+- WALL_WEDGE
+- WHALE
+- WOLF
+- ZAP
+- ZILLION
+- _0_60
+- _0_70
+- _2_80
+- _7_55
 
 Mandatory packs (forced by unique parts):
 - talon_ptera_single
@@ -60,5 +91,5 @@ Mandatory packs (forced by unique parts):
 - flame_cerberus_single
   forced by: CERBERUS, FLAME, WALL_BALL, WHEEL
 
-Remaining missing parts after reduction: 36
+Remaining missing parts after reduction: 6
 Remaining packs to search: 42
