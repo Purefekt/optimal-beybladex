@@ -43,8 +43,6 @@ All packs are unique: True
 📦 Mandatory packs (forced by unique parts):
 - talon_ptera_single
   forced by: TALON_PTERA
-- steel_samurai_single
-  forced by: STEEL_SAMURAI
 - claw_leon_single
   forced by: CLAW_LEON
 - roar_tyranno_single
@@ -101,4 +99,4 @@ All packs are unique: True
 - YELL_KONG
 
 Remaining missing parts count: 6
-Remaining packs to search: 42
+Remaining packs to search: 43
