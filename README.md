@@ -1,8 +1,5 @@
 # optimal-beybladex
 
-(base) veersingh@Veers-MacBook-Pro optimal-beybladex % /usr/loc
-al/bin/python3 /Users/veersingh/Desktop/optimal-beybladex/main.
-py
 All parts are unique: True
 All packs are unique: True
 

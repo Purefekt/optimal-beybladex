@@ -29,7 +29,8 @@ my_blades = set([
     Blades.SABER_SAMURAI,
     Blades.TRICERAPRESS,
     Blades.CLOCK_MIRAGE,
-    Blades.STEEL_SAMURAI
+    Blades.STEEL_SAMURAI,
+    Blades.SWORD_DRAN
 ])
 
 my_ratchets = set([
@@ -86,7 +87,8 @@ my_bits = set([
     Bits.CYCLONE,
     Bits.LEVEL,
     Bits.BOUND_SPIKE,
-    Bits.OPERATE
+    Bits.OPERATE,
+    Bits.FLAT
 ])
 
 my_lockchips = set([
