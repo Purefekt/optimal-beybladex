@@ -59,6 +59,7 @@ class Blades(Enum):
     STUN_MEDUSA = 56
     HACK_VIKING = 57
     RIDGE_TRICERATOPS = 58
+    OROCHI_CLUSTER = 59
 
 class Ratchets(Enum):
     _3_60 = 1
