@@ -109,7 +109,8 @@ my_parts = set().union(
 
 # --- Run optimized solver ---
 print("\n=== Running optimized pack solver ===")
-solution = optimal_pack_selection(
+
+solution, search_space = optimal_pack_selection(
     all_parts=all_parts,
     owned_parts=my_parts,
     packs=all_packs,
@@ -119,8 +120,21 @@ solution = optimal_pack_selection(
 if not solution:
     print("\nNo solution found.")
 else:
-    print("\nOptimal packs:")
+
+    print("\nOptimal packs to BUY:")
     for pack in solution:
+        print("-", pack.name)
+
+    # --- Packs considered but NOT chosen ---
+    solution_set = set(solution)
+
+    not_chosen = [
+        p for p in search_space
+        if p not in solution_set
+    ]
+
+    print("\nPacks considered but NOT chosen:")
+    for pack in not_chosen:
         print("-", pack.name)
 
     # --- Duplicate calculation ---
@@ -134,9 +148,4 @@ else:
             else:
                 seen.add(part)
 
-    print("Minimum duplicates:", duplicates)
-
-"""
-Remaining missing parts after reduction: 36
-Remaining packs to search: 46
-"""
+    print("\nMinimum duplicates:", duplicates)

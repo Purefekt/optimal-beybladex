@@ -94,4 +94,46 @@ All packs are unique: True
 - YELL_KONG
 
 Remaining missing parts count: 6
-Remaining packs to search: 44
+Remaining packs to search: 13
+
+Optimal packs to BUY:
+- talon_ptera_single
+- claw_leon_single
+- roar_tyranno_single
+- savage_bear_single
+- cowl_sphinx_crest_leon_double
+- scarlet_garuda_single
+- courage_dran_single
+- chain_incendio_circle_ghost_double
+- sword_dran_tackle_goat_double
+- fox_brush_single
+- wriggle_kraken_single
+- fort_hornet_single
+- xtreme_expansion_pack
+- yggdrasil_team_pack
+- hack_viking_circle_ghost_double
+- calibur_samurai_obisidian_shell_double
+- ridge_triceratops_single
+- feather_phoenix_single
+- stun_medusa_single
+- scale_shark_single
+- fang_leon_single
+- reaper_rhino_single
+- flame_cerberus_single
+- scythe_incendio_single
+- yell_kong_helm_knight_double
+- gale_wyvern_tail_viper_double
+- keel_shark_black_single
+
+Packs considered but NOT chosen:
+- tail_viper_sword_dran_double
+- chain_incendio_arrow_wizard_double
+- knife_shinobi_keel_shark_double
+- helm_knight_single
+- keel_shark_single
+- scythe_incendio_yellow_single
+- gale_wyvern_sword_dran_double
+- yell_kong_single
+- rudder_phoenix_single
+
+Minimum duplicates: 75

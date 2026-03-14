@@ -39,7 +39,7 @@ def reduce_forced_packs(missing_parts, packs):
                 pack_parts = set(pack.parts.elements())
                 missing -= pack_parts
 
-        # Remove forced packs
+        # Remove forced packs from search pool
         remaining_packs = [p for p in remaining_packs if p not in forced]
 
     return forced, forced_by, remaining_packs, missing
@@ -49,9 +49,12 @@ def reduce_forced_packs(missing_parts, packs):
 # Main solver
 # -----------------------------
 def optimal_pack_selection(all_parts, owned_parts, packs):
+
     missing = set(all_parts) - set(owned_parts)
 
-    # 🔹 Stage 0: Remove unbuyable parts
+    # -----------------------------
+    # Stage 0: Remove unbuyable parts
+    # -----------------------------
     available_parts = set()
     for pack in packs:
         available_parts |= set(pack.parts.elements())
@@ -63,19 +66,29 @@ def optimal_pack_selection(all_parts, owned_parts, packs):
         for part in sorted(unbuyable, key=lambda p: p.name):
             print(f"- {part.name}")
 
-        # Remove from search space
         missing -= unbuyable
 
     if not missing:
         print("\nNo purchasable missing parts remain.")
-        return []
+        return [], []
 
-    # 🔹 Stage 1: Forced reduction
+    # -----------------------------
+    # Stage 0.5: Remove packs that give no new parts
+    # -----------------------------
+    packs = [
+        pack for pack in packs
+        if set(pack.parts.elements()) & missing
+    ]
+
+    # -----------------------------
+    # Stage 1: Forced pack reduction
+    # -----------------------------
     forced_packs, forced_by, remaining_packs, missing = reduce_forced_packs(
         missing, packs
     )
 
     print("\n📦 Mandatory packs (forced by unique parts):")
+
     if forced_packs:
         for pack in forced_packs:
             parts = sorted(p.name for p in forced_by[pack])
@@ -84,8 +97,11 @@ def optimal_pack_selection(all_parts, owned_parts, packs):
     else:
         print("None")
 
-    # 🔹 Stage 1b: Remove redundant packs
+    # -----------------------------
+    # Stage 1b: Remove redundant packs
+    # -----------------------------
     covered_by_forced = set()
+
     for pack in forced_packs:
         covered_by_forced |= set(pack.parts.elements())
 
@@ -94,8 +110,11 @@ def optimal_pack_selection(all_parts, owned_parts, packs):
         if not set(p.parts.elements()).issubset(covered_by_forced)
     ]
 
-    # 🔥 PRINT CURRENT HUNT LIST (after reduction)
+    # -----------------------------
+    # Print current hunt list
+    # -----------------------------
     print("\n🎯 Parts still in hunt:")
+
     for part in sorted(missing, key=lambda p: p.name):
         print(f"- {part.name}")
 
@@ -103,14 +122,18 @@ def optimal_pack_selection(all_parts, owned_parts, packs):
     print(f"Remaining packs to search: {len(remaining_packs)}")
 
     if not missing:
-        return forced_packs
+        return forced_packs, remaining_packs
 
+    # -----------------------------
+    # Stage 2: Exact exponential search
+    # -----------------------------
     best_combo = None
     best_duplicates = float("inf")
 
-    # 🔹 Stage 2: Exponential search
     for r in range(1, len(remaining_packs) + 1):
+
         for combo in combinations(remaining_packs, r):
+
             covered = set(covered_by_forced)
             total_parts = sum(len(p.parts) for p in forced_packs)
 
@@ -120,6 +143,7 @@ def optimal_pack_selection(all_parts, owned_parts, packs):
                 total_parts += len(pack_parts)
 
             if missing <= covered:
+
                 duplicates = total_parts - len(covered)
 
                 if duplicates < best_duplicates:
@@ -128,6 +152,8 @@ def optimal_pack_selection(all_parts, owned_parts, packs):
 
     if best_combo is None:
         print("\n⚠️ Could not cover all remaining missing parts.")
-        return forced_packs
+        return forced_packs, remaining_packs
 
-    return forced_packs + list(best_combo)
+    solution = forced_packs + list(best_combo)
+
+    return solution, remaining_packs
