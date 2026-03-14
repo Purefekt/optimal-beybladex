@@ -50,8 +50,6 @@ All packs are unique: True
   forced by: CREST_LEON
 - scarlet_garuda_single
   forced by: SCARLET_GARUDA, TRANS_POINT
-- reaper_incendio_single
-  forced by: INCENDIO, KICK
 - courage_dran_single
   forced by: COURAGE, DRAN, VORTEX, _6_60
 - chain_incendio_circle_ghost_double
@@ -96,4 +94,4 @@ All packs are unique: True
 - YELL_KONG
 
 Remaining missing parts count: 6
-Remaining packs to search: 43
+Remaining packs to search: 44

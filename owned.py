@@ -88,25 +88,29 @@ my_bits = set([
     Bits.LEVEL,
     Bits.BOUND_SPIKE,
     Bits.OPERATE,
-    Bits.FLAT
+    Bits.FLAT,
+    Bits.KICK
 ])
 
 my_lockchips = set([
     LockChip.WIZARD,
     LockChip.PERSEUS,
     LockChip.STAG,
-    LockChip.EMPEROR
+    LockChip.EMPEROR,
+    LockChip.INCENDIO
 ])
 
 my_mainblades = set([
     MainBlade.ARC,
     MainBlade.DARK,
     MainBlade.ANTLER,
-    MainBlade.MIGHT
+    MainBlade.MIGHT,
+    MainBlade.REAPER
 ])
 
 my_assistblades = set([
     AssistBlade.ROUND,
     AssistBlade.BUMPER,
-    AssistBlade.HEAVY
+    AssistBlade.HEAVY,
+    AssistBlade.TURN
 ])
