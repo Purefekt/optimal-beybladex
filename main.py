@@ -89,7 +89,14 @@ all_packs = [
     packs.scale_shark_single,
     packs.fang_leon_single,
     packs.reaper_rhino_single,
-    packs.flame_cerberus_single
+    packs.flame_cerberus_single,
+    packs.armor_knight_single,
+    packs.rage_ragna_single,
+    packs.rocket_griffon_single,
+    packs.strike_dran_single,
+    packs.sneak_attack_battle_set,
+    packs.blast_pegasus_single,
+    packs.meteoroid_dragoon_single
 ]
 
 all_packs_set = set()

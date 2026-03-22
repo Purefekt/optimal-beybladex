@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from collections import Counter
-from parts import Blades, Ratchets, Bits, LockChip, MainBlade, AssistBlade
+from parts import Blades, Ratchets, Bits, LockChip, MainBlade, AssistBlade, OverBlade, MetalBlade
 
 @dataclass(frozen=True)
 class Pack:
@@ -740,3 +740,72 @@ flame_cerberus_single = Pack(
     ])
 )
 
+armor_knight_single = Pack(
+    name="armor_knight_single",
+    parts=Counter([
+        LockChip.KNIGHT,
+        OverBlade.GUARD,
+        MetalBlade.ARMOR,
+        AssistBlade.VERTICAL,
+        Ratchets._8_70,
+        Bits.UNDER_NEEDLE
+    ])
+)
+
+rage_ragna_single = Pack(
+    name="rage_ragna_single",
+    parts=Counter([
+        LockChip.RAGNA,
+        OverBlade.FLOW,
+        MetalBlade.RAGE,
+        AssistBlade.ERASE,
+        Ratchets._4_55,
+        Bits.YIELDING
+    ])
+)
+
+rocket_griffon_single = Pack(
+    name="rocket_griffon_single",
+    parts=Counter([
+        Blades.ROCKET_GRIFFON,
+        Bits.HEXA
+    ])
+)
+
+strike_dran_single = Pack(
+    name="strike_dran_single",
+    parts=Counter([
+        Blades.STRIKE_DRAN,
+        Ratchets._4_50,
+        Bits.FREE_FLAT
+    ])
+)
+
+sneak_attack_battle_set = Pack(
+    name="sneak_attack_battle_set",
+    parts=Counter([
+        Blades.CUTTER_CHINOBI,
+        Bits.LOW_FLAT,
+        Blades.RAMPART_AEGIS,
+        Bits.GEAR_BALL
+    ])
+)
+
+blast_pegasus_single = Pack(
+    name="blast_pegasus_single",
+    parts=Counter([
+        LockChip.PEGASUS,
+        MainBlade.BLAST,
+        AssistBlade.ASSAULT,
+        Bits.TURBO
+    ])
+)
+
+meteoroid_dragoon_single = Pack(
+    name="meteoroid_dragoon_single",
+    parts=Counter([
+        Blades.METEOR_DRAGOON,
+        Ratchets._3_70,
+        Bits.JOLT
+    ])
+)

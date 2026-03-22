@@ -60,6 +60,10 @@ class Blades(Enum):
     HACK_VIKING = 57
     RIDGE_TRICERATOPS = 58
     OROCHI_CLUSTER = 59
+    STRIKE_DRAN = 60
+    ROCKET_GRIFFON = 61
+    RAMPART_AEGIS = 62
+    CUTTER_CHINOBI = 63
 
 class Ratchets(Enum):
     _3_60 = 1
@@ -94,6 +98,8 @@ class Ratchets(Enum):
     _7_55 = 30
     _0_60 = 31
     _2_80 = 32
+    _1_50 = 33
+    _8_70 = 34
 
 class Bits(Enum):
     FLAT = 1
@@ -142,6 +148,9 @@ class Bits(Enum):
     TRANS_KICK = 44
     OPERATE = 45
     WALL_WEDGE = 46
+    FREE_FLAT = 47
+    IGNITION = 48
+    YIELDING = 49
 
 class LockChip(Enum):
     DRAN = 1
@@ -162,6 +171,9 @@ class LockChip(Enum):
     VALKYRIE = 16
     LEON = 17
     PHOENIX = 18
+    BAHAMUT = 19
+    KNIGHT = 20
+    RAGNA = 21
 
 class MainBlade(Enum):
     COURAGE = 1
@@ -181,6 +193,16 @@ class MainBlade(Enum):
     FANG = 15
     FLARE = 16
 
+class OverBlade(Enum):
+    BREAK = 1
+    GUARD = 2
+    FLOW = 3
+
+class MetalBlade(Enum):
+    BLITZ = 1
+    ARMOR = 2
+    RAGE = 3
+
 class AssistBlade(Enum):
     SLASH = 1
     TURN = 2
@@ -195,3 +217,6 @@ class AssistBlade(Enum):
     CHARGE = 11
     FREE = 12
     ZILLION = 13
+    KNUCKLE = 14
+    VERTICAL = 15
+    ERASE = 16

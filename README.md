@@ -1,31 +1,25 @@
 # optimal-beybladex
 
-All parts are unique: True
-All packs are unique: True
-
 === Running optimized pack solver ===
 
 🚫 Unbuyable parts (not in any available pack):
 - AERO_PEGASUS
-- ASSAULT
-- BLAST
+- BAHAMUT
 - COBALT_DRAKE
 - DUAL
 - ECLIPSE
 - FLARE
 - FREE
 - HUNT
-- JOLT
+- IGNITION
+- KNUCKLE
 - MASSIVE
-- METEOR_DRAGOON
 - MUMMY_CURSE
 - OROCHI_CLUSTER
-- PEGASUS
 - PHOENIX
 - SCORPIO_SPEAR
 - SOL
 - TRANS_KICK
-- TURBO
 - VALKYRIE
 - VOLT
 - WALL_WEDGE
@@ -35,6 +29,7 @@ All packs are unique: True
 - ZILLION
 - _0_60
 - _0_70
+- _1_50
 - _2_80
 - _7_55
 
@@ -78,13 +73,27 @@ All packs are unique: True
 - stun_medusa_single
   forced by: STUN_MEDUSA
 - scale_shark_single
-  forced by: SCALE_SHARK, UNDER_FLAT, _4_50
+  forced by: SCALE_SHARK, UNDER_FLAT
 - fang_leon_single
   forced by: FANG, LEON
 - reaper_rhino_single
   forced by: CHARGE, RHINO
 - flame_cerberus_single
   forced by: CERBERUS, FLAME, WALL_BALL, WHEEL
+- armor_knight_single
+  forced by: KNIGHT, VERTICAL, _8_70
+- rage_ragna_single
+  forced by: ERASE, RAGNA, YIELDING
+- rocket_griffon_single
+  forced by: ROCKET_GRIFFON
+- strike_dran_single
+  forced by: FREE_FLAT, STRIKE_DRAN
+- sneak_attack_battle_set
+  forced by: CUTTER_CHINOBI, RAMPART_AEGIS
+- blast_pegasus_single
+  forced by: ASSAULT, BLAST, PEGASUS, TURBO
+- meteoroid_dragoon_single
+  forced by: JOLT, METEOR_DRAGOON
 
 🎯 Parts still in hunt:
 - GALE_WYVERN
@@ -95,7 +104,7 @@ All packs are unique: True
 - YELL_KONG
 
 Remaining missing parts count: 6
-Remaining packs to search: 13
+Remaining packs to search: 12
 
 Optimal packs to BUY:
 - talon_ptera_single
@@ -121,6 +130,13 @@ Optimal packs to BUY:
 - fang_leon_single
 - reaper_rhino_single
 - flame_cerberus_single
+- armor_knight_single
+- rage_ragna_single
+- rocket_griffon_single
+- strike_dran_single
+- sneak_attack_battle_set
+- blast_pegasus_single
+- meteoroid_dragoon_single
 - scythe_incendio_single
 - yell_kong_helm_knight_double
 - gale_wyvern_tail_viper_double
@@ -135,6 +151,5 @@ Packs considered but NOT chosen:
 - scythe_incendio_yellow_single
 - gale_wyvern_sword_dran_double
 - yell_kong_single
-- rudder_phoenix_single
 
-Minimum duplicates: 75
+Minimum duplicates: 82
