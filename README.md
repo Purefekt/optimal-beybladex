@@ -1,5 +1,3 @@
-# optimal-beybladex
-
 === Running optimized pack solver ===
 
 🚫 Unbuyable parts (not in any available pack):
@@ -99,12 +97,11 @@
 - GALE_WYVERN
 - HELM_KNIGHT
 - KEEL_SHARK
-- SCYTHE_INCENDIO
 - TAIL_VIPER
 - YELL_KONG
 
-Remaining missing parts count: 6
-Remaining packs to search: 12
+Remaining missing parts count: 5
+Remaining packs to search: 10
 
 Optimal packs to BUY:
 - talon_ptera_single
@@ -137,7 +134,6 @@ Optimal packs to BUY:
 - sneak_attack_battle_set
 - blast_pegasus_single
 - meteoroid_dragoon_single
-- scythe_incendio_single
 - yell_kong_helm_knight_double
 - gale_wyvern_tail_viper_double
 - keel_shark_black_single
@@ -148,8 +144,7 @@ Packs considered but NOT chosen:
 - knife_shinobi_keel_shark_double
 - helm_knight_single
 - keel_shark_single
-- scythe_incendio_yellow_single
 - gale_wyvern_sword_dran_double
 - yell_kong_single
 
-Minimum duplicates: 82
+Minimum duplicates: 80
