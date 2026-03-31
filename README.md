@@ -34,8 +34,6 @@
 📦 Mandatory packs (forced by unique parts):
 - talon_ptera_single
   forced by: TALON_PTERA
-- claw_leon_single
-  forced by: CLAW_LEON
 - roar_tyranno_single
   forced by: ROAR_TYRANNO
 - savage_bear_single
@@ -105,7 +103,6 @@ Remaining packs to search: 10
 
 Optimal packs to BUY:
 - talon_ptera_single
-- claw_leon_single
 - roar_tyranno_single
 - savage_bear_single
 - cowl_sphinx_crest_leon_double
@@ -147,4 +144,4 @@ Packs considered but NOT chosen:
 - gale_wyvern_sword_dran_double
 - yell_kong_single
 
-Minimum duplicates: 80
+Minimum duplicates: 78
