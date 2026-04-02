@@ -32,7 +32,9 @@ my_blades = set([
     Blades.STEEL_SAMURAI,
     Blades.SWORD_DRAN,
     Blades.SCYTHE_INCENDIO,
-    Blades.CLAW_LEON
+    Blades.CLAW_LEON,
+    Blades.KEEL_SHARK,
+    Blades.TALON_PTERA
 ])
 
 my_ratchets = set([

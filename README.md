@@ -32,8 +32,6 @@
 - _7_55
 
 📦 Mandatory packs (forced by unique parts):
-- talon_ptera_single
-  forced by: TALON_PTERA
 - roar_tyranno_single
   forced by: ROAR_TYRANNO
 - savage_bear_single
@@ -94,15 +92,13 @@
 🎯 Parts still in hunt:
 - GALE_WYVERN
 - HELM_KNIGHT
-- KEEL_SHARK
 - TAIL_VIPER
 - YELL_KONG
 
-Remaining missing parts count: 5
-Remaining packs to search: 10
+Remaining missing parts count: 4
+Remaining packs to search: 7
 
 Optimal packs to BUY:
-- talon_ptera_single
 - roar_tyranno_single
 - savage_bear_single
 - cowl_sphinx_crest_leon_double
@@ -133,15 +129,12 @@ Optimal packs to BUY:
 - meteoroid_dragoon_single
 - yell_kong_helm_knight_double
 - gale_wyvern_tail_viper_double
-- keel_shark_black_single
 
 Packs considered but NOT chosen:
 - tail_viper_sword_dran_double
 - chain_incendio_arrow_wizard_double
-- knife_shinobi_keel_shark_double
 - helm_knight_single
-- keel_shark_single
 - gale_wyvern_sword_dran_double
 - yell_kong_single
 
-Minimum duplicates: 78
+Minimum duplicates: 74
