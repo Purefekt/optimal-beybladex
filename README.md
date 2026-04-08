@@ -1,3 +1,6 @@
+All parts are unique: True
+All packs are unique: True
+
 === Running optimized pack solver ===
 
 🚫 Unbuyable parts (not in any available pack):
@@ -90,13 +93,11 @@
   forced by: JOLT, METEOR_DRAGOON
 
 🎯 Parts still in hunt:
-- GALE_WYVERN
 - HELM_KNIGHT
-- TAIL_VIPER
 - YELL_KONG
 
-Remaining missing parts count: 4
-Remaining packs to search: 7
+Remaining missing parts count: 2
+Remaining packs to search: 4
 
 Optimal packs to BUY:
 - roar_tyranno_single
@@ -127,14 +128,11 @@ Optimal packs to BUY:
 - sneak_attack_battle_set
 - blast_pegasus_single
 - meteoroid_dragoon_single
-- yell_kong_helm_knight_double
-- gale_wyvern_tail_viper_double
-
-Packs considered but NOT chosen:
-- tail_viper_sword_dran_double
-- chain_incendio_arrow_wizard_double
 - helm_knight_single
-- gale_wyvern_sword_dran_double
 - yell_kong_single
 
-Minimum duplicates: 74
+Packs considered but NOT chosen:
+- chain_incendio_arrow_wizard_double
+- yell_kong_helm_knight_double
+
+Minimum duplicates: 70

@@ -1,7 +1,25 @@
+import sys
+import io
 from parts import Blades, Ratchets, Bits, LockChip, MainBlade, AssistBlade
 import packs
 import owned
 from solver import optimal_pack_selection
+
+
+class Tee:
+    def __init__(self, *streams):
+        self.streams = streams
+
+    def write(self, data):
+        for s in self.streams:
+            s.write(data)
+
+    def flush(self):
+        for s in self.streams:
+            s.flush()
+
+buffer = io.StringIO()
+sys.stdout = Tee(sys.__stdout__, buffer)
 
 all_parts = set().union(
     Blades,
@@ -156,3 +174,7 @@ else:
                 seen.add(part)
 
     print("\nMinimum duplicates:", duplicates)
+
+sys.stdout = sys.__stdout__
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(buffer.getvalue())
