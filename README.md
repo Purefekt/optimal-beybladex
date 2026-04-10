@@ -6,7 +6,6 @@ All packs are unique: True
 🚫 Unbuyable parts (not in any available pack):
 - AERO_PEGASUS
 - BAHAMUT
-- COBALT_DRAKE
 - DUAL
 - ECLIPSE
 - FLARE
@@ -15,7 +14,6 @@ All packs are unique: True
 - IGNITION
 - KNUCKLE
 - MASSIVE
-- MUMMY_CURSE
 - OROCHI_CLUSTER
 - PHOENIX
 - SCORPIO_SPEAR
@@ -47,8 +45,6 @@ All packs are unique: True
   forced by: COURAGE, DRAN, VORTEX, _6_60
 - chain_incendio_circle_ghost_double
   forced by: _0_80
-- sword_dran_tackle_goat_double
-  forced by: TACKLE_GOAT
 - fox_brush_single
   forced by: BRUSH, FOX, GEAR_RUSH, JAGGY
 - wriggle_kraken_single
@@ -56,7 +52,7 @@ All packs are unique: True
 - fort_hornet_single
   forced by: FORT, HORNET
 - xtreme_expansion_pack
-  forced by: MAIL_KNIGHT, RUBBER_ACCEL, _7_70
+  forced by: MAIL_KNIGHT, RUBBER_ACCEL
 - yggdrasil_team_pack
   forced by: GLIDE
 - hack_viking_circle_ghost_double
@@ -106,7 +102,6 @@ Optimal packs to BUY:
 - scarlet_garuda_single
 - courage_dran_single
 - chain_incendio_circle_ghost_double
-- sword_dran_tackle_goat_double
 - fox_brush_single
 - wriggle_kraken_single
 - fort_hornet_single
@@ -135,4 +130,4 @@ Packs considered but NOT chosen:
 - chain_incendio_arrow_wizard_double
 - yell_kong_helm_knight_double
 
-Minimum duplicates: 70
+Minimum duplicates: 66

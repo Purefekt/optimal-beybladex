@@ -36,7 +36,10 @@ my_blades = set([
     Blades.KEEL_SHARK,
     Blades.TALON_PTERA,
     Blades.GALE_WYVERN,
-    Blades.TAIL_VIPER
+    Blades.TAIL_VIPER,
+    Blades.COBALT_DRAKE,
+    Blades.TACKLE_GOAT,
+    Blades.MUMMY_CURSE
 ])
 
 my_ratchets = set([
@@ -60,7 +63,8 @@ my_ratchets = set([
     Ratchets._5_80,
     Ratchets._2_70,
     Ratchets._M_85,
-    Ratchets._9_65
+    Ratchets._9_65,
+    Ratchets._7_70
 ])
 
 my_bits = set([
