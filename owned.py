@@ -64,7 +64,8 @@ my_ratchets = set([
     Ratchets._2_70,
     Ratchets._M_85,
     Ratchets._9_65,
-    Ratchets._7_70
+    Ratchets._7_70,
+    Ratchets._6_60
 ])
 
 my_bits = set([
@@ -99,7 +100,8 @@ my_bits = set([
     Bits.BOUND_SPIKE,
     Bits.OPERATE,
     Bits.FLAT,
-    Bits.KICK
+    Bits.KICK,
+    Bits.VORTEX
 ])
 
 my_lockchips = set([
@@ -107,7 +109,8 @@ my_lockchips = set([
     LockChip.PERSEUS,
     LockChip.STAG,
     LockChip.EMPEROR,
-    LockChip.INCENDIO
+    LockChip.INCENDIO,
+    LockChip.DRAN
 ])
 
 my_mainblades = set([
@@ -115,12 +118,14 @@ my_mainblades = set([
     MainBlade.DARK,
     MainBlade.ANTLER,
     MainBlade.MIGHT,
-    MainBlade.REAPER
+    MainBlade.REAPER,
+    MainBlade.COURAGE
 ])
 
 my_assistblades = set([
     AssistBlade.ROUND,
     AssistBlade.BUMPER,
     AssistBlade.HEAVY,
-    AssistBlade.TURN
+    AssistBlade.TURN,
+    AssistBlade.SLASH
 ])

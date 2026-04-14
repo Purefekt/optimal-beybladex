@@ -41,8 +41,6 @@ All packs are unique: True
   forced by: CREST_LEON
 - scarlet_garuda_single
   forced by: SCARLET_GARUDA, TRANS_POINT
-- courage_dran_single
-  forced by: COURAGE, DRAN, VORTEX, _6_60
 - chain_incendio_circle_ghost_double
   forced by: _0_80
 - fox_brush_single
@@ -100,7 +98,6 @@ Optimal packs to BUY:
 - savage_bear_single
 - cowl_sphinx_crest_leon_double
 - scarlet_garuda_single
-- courage_dran_single
 - chain_incendio_circle_ghost_double
 - fox_brush_single
 - wriggle_kraken_single
