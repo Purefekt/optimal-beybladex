@@ -6,6 +6,8 @@ All packs are unique: True
 🚫 Unbuyable parts (not in any available pack):
 - AERO_PEGASUS
 - BAHAMUT
+- BLITZ
+- BREAK
 - DUAL
 - ECLIPSE
 - FLARE
@@ -72,9 +74,9 @@ All packs are unique: True
 - flame_cerberus_single
   forced by: CERBERUS, FLAME, WALL_BALL, WHEEL
 - armor_knight_single
-  forced by: KNIGHT, VERTICAL, _8_70
+  forced by: ARMOR, GUARD, KNIGHT, VERTICAL, _8_70
 - rage_ragna_single
-  forced by: ERASE, RAGNA, YIELDING
+  forced by: ERASE, FLOW, RAGE, RAGNA, YIELDING
 - rocket_griffon_single
   forced by: ROCKET_GRIFFON
 - strike_dran_single

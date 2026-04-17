@@ -1,6 +1,6 @@
 import sys
 import io
-from parts import Blades, Ratchets, Bits, LockChip, MainBlade, AssistBlade
+from parts import Blades, Ratchets, Bits, LockChip, MainBlade, AssistBlade, OverBlade, MetalBlade
 import packs
 import owned
 from solver import optimal_pack_selection
@@ -27,7 +27,9 @@ all_parts = set().union(
     Bits,
     LockChip,
     MainBlade,
-    AssistBlade
+    AssistBlade,
+    OverBlade,
+    MetalBlade
 )
 
 all_parts_names = set()
