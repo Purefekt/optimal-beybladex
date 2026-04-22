@@ -85,8 +85,6 @@ All packs are unique: True
   forced by: CUTTER_CHINOBI, RAMPART_AEGIS
 - blast_pegasus_single
   forced by: ASSAULT, BLAST, PEGASUS, TURBO
-- meteoroid_dragoon_single
-  forced by: JOLT, METEOR_DRAGOON
 
 🎯 Parts still in hunt:
 - HELM_KNIGHT
@@ -121,7 +119,6 @@ Optimal packs to BUY:
 - strike_dran_single
 - sneak_attack_battle_set
 - blast_pegasus_single
-- meteoroid_dragoon_single
 - helm_knight_single
 - yell_kong_single
 
@@ -129,4 +126,4 @@ Packs considered but NOT chosen:
 - chain_incendio_arrow_wizard_double
 - yell_kong_helm_knight_double
 
-Minimum duplicates: 66
+Minimum duplicates: 65
