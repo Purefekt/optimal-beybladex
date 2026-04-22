@@ -40,7 +40,8 @@ my_blades = set([
     Blades.COBALT_DRAKE,
     Blades.TACKLE_GOAT,
     Blades.MUMMY_CURSE,
-    Blades.METEOR_DRAGOON
+    Blades.METEOR_DRAGOON,
+    Blades.SCARLET_GARUDA
 ])
 
 my_ratchets = set([
@@ -103,7 +104,8 @@ my_bits = set([
     Bits.FLAT,
     Bits.KICK,
     Bits.VORTEX,
-    Bits.JOLT
+    Bits.JOLT,
+    Bits.TRANS_POINT
 ])
 
 my_lockchips = set([

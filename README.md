@@ -41,8 +41,6 @@ All packs are unique: True
   forced by: SAVAGE_BEAR
 - cowl_sphinx_crest_leon_double
   forced by: CREST_LEON
-- scarlet_garuda_single
-  forced by: SCARLET_GARUDA, TRANS_POINT
 - chain_incendio_circle_ghost_double
   forced by: _0_80
 - fox_brush_single
@@ -91,13 +89,12 @@ All packs are unique: True
 - YELL_KONG
 
 Remaining missing parts count: 2
-Remaining packs to search: 4
+Remaining packs to search: 5
 
 Optimal packs to BUY:
 - roar_tyranno_single
 - savage_bear_single
 - cowl_sphinx_crest_leon_double
-- scarlet_garuda_single
 - chain_incendio_circle_ghost_double
 - fox_brush_single
 - wriggle_kraken_single
@@ -125,5 +122,6 @@ Optimal packs to BUY:
 Packs considered but NOT chosen:
 - chain_incendio_arrow_wizard_double
 - yell_kong_helm_knight_double
+- rudder_phoenix_single
 
-Minimum duplicates: 65
+Minimum duplicates: 64
