@@ -55,8 +55,6 @@ All packs are unique: True
   forced by: GLIDE
 - hack_viking_circle_ghost_double
   forced by: HACK_VIKING
-- calibur_samurai_obisidian_shell_double
-  forced by: CALIBUR_SAMURAI, MERGE, _6_70
 - ridge_triceratops_single
   forced by: RIDGE_TRICERATOPS
 - feather_phoenix_single
@@ -102,7 +100,6 @@ Optimal packs to BUY:
 - xtreme_expansion_pack
 - yggdrasil_team_pack
 - hack_viking_circle_ghost_double
-- calibur_samurai_obisidian_shell_double
 - ridge_triceratops_single
 - feather_phoenix_single
 - stun_medusa_single
@@ -124,4 +121,4 @@ Packs considered but NOT chosen:
 - yell_kong_helm_knight_double
 - rudder_phoenix_single
 
-Minimum duplicates: 64
+Minimum duplicates: 61
