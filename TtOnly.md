@@ -1,15 +1,17 @@
-- AeroPegasus 
-- Valkyrie volt
-- Orochi cluster
-
-- Bahamut Blitz
-- Sol eclipse
-- Phoenix flare
-- Wolf hunt
-
-- Scorpio spear (might come to hasbro) 
-- Mummy curse (for 7-55) (might come to hasbro)
-
+- AeroPegasus  --> AERO_PEGASUS
+- Valkyrie volt --> VALKYRIE, VOLT
+- Orochi cluster --> OROCHI_CLUSTER
+--------------------------------------------------------
+- Bahamut Blitz --> BAHAMUT, BLITZ, BREAK, KNUCKLE, IGNITION, _1_50
+- Sol eclipse --> SOL, ECLIPSE, DUAL, TRANS_KICK
+- Phoenix flare --> PHOENIX, FLARE, ZILLION, WALL_WEDGE
+- Wolf hunt --> WOLF, HUNT, FREE, _0_60
+- Shark scale deck set --> _1_70
+--------------------------------------------------------
+- Scorpio spear (might come to hasbro) --> SCORPIO_SPEAR, _0_70, ZAP
+- Mummy curse (might come to hasbro) --> _7_55
+--------------------------------------------------------
 - Random Booster Vol. 7 --> WHALE, MASSIVE 
 - Random Booster Vol. 8 --> MASSIVE, 7-55
 - Random Booster Vol. 9 --> _2_80
+- Random Booster Vol. 10 --> UNICORN, PEAK, DELTA, ODD, GEAR_UNITE
