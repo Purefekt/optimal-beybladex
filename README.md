@@ -8,19 +8,24 @@ All packs are unique: True
 - BAHAMUT
 - BLITZ
 - BREAK
+- DELTA
 - DUAL
 - ECLIPSE
 - FLARE
 - FREE
+- GEAR_UNITE
 - HUNT
 - IGNITION
 - KNUCKLE
 - MASSIVE
+- ODD
 - OROCHI_CLUSTER
+- PEAK
 - PHOENIX
 - SCORPIO_SPEAR
 - SOL
 - TRANS_KICK
+- UNICORN
 - VALKYRIE
 - VOLT
 - WALL_WEDGE
@@ -31,6 +36,7 @@ All packs are unique: True
 - _0_60
 - _0_70
 - _1_50
+- _1_70
 - _2_80
 - _7_55
 

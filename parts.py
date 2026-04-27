@@ -100,6 +100,7 @@ class Ratchets(Enum):
     _2_80 = 32
     _1_50 = 33
     _8_70 = 34
+    _1_70 = 35
 
 class Bits(Enum):
     FLAT = 1
@@ -151,6 +152,7 @@ class Bits(Enum):
     FREE_FLAT = 47
     IGNITION = 48
     YIELDING = 49
+    GEAR_UNITE = 50
 
 class LockChip(Enum):
     DRAN = 1
@@ -174,6 +176,7 @@ class LockChip(Enum):
     BAHAMUT = 19
     KNIGHT = 20
     RAGNA = 21
+    UNICORN = 22
 
 class MainBlade(Enum):
     COURAGE = 1
@@ -197,11 +200,13 @@ class OverBlade(Enum):
     BREAK = 1
     GUARD = 2
     FLOW = 3
+    PEAK = 4
 
 class MetalBlade(Enum):
     BLITZ = 1
     ARMOR = 2
     RAGE = 3
+    DELTA = 4
 
 class AssistBlade(Enum):
     SLASH = 1
@@ -220,3 +225,4 @@ class AssistBlade(Enum):
     KNUCKLE = 14
     VERTICAL = 15
     ERASE = 16
+    ODD = 17
