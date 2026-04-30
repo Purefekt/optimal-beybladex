@@ -89,11 +89,9 @@ All packs are unique: True
   forced by: ASSAULT, BLAST, PEGASUS, TURBO
 
 🎯 Parts still in hunt:
-- HELM_KNIGHT
-- YELL_KONG
 
-Remaining missing parts count: 2
-Remaining packs to search: 5
+Remaining missing parts count: 0
+Remaining packs to search: 2
 
 Optimal packs to BUY:
 - roar_tyranno_single
@@ -119,12 +117,9 @@ Optimal packs to BUY:
 - strike_dran_single
 - sneak_attack_battle_set
 - blast_pegasus_single
-- helm_knight_single
-- yell_kong_single
 
 Packs considered but NOT chosen:
 - chain_incendio_arrow_wizard_double
-- yell_kong_helm_knight_double
 - rudder_phoenix_single
 
-Minimum duplicates: 61
+Minimum duplicates: 57
